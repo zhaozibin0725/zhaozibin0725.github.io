@@ -13,19 +13,10 @@
 
         <div id="app"></div>
 
-        <script type="text/babel">
-            function Hello(props) {
-                return <h1>Hello, {props.text}!</h1>;
-            }
-
-            function App() {
-                return (
-                    <div>
-                        <Hello text="This is my Github Pages website!" />
-                    </div>
-                );
-            }
-
+        <script type="text/babel" data-type="module">
+            // 使用 ES Module 方式导入
+            import App from './src/App.js';
+            
             const root = ReactDOM.createRoot(document.getElementById("app"));
             root.render(<App />);
         </script>
