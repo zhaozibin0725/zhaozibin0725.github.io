@@ -1,5 +1,3 @@
-import Hello from './Hello.js';
-
 function App() {
     return (
         <div>
@@ -7,5 +5,3 @@ function App() {
         </div>
     );
 }
-
-export default App;
